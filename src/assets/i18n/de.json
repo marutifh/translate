@@ -1,0 +1,22 @@
+{
+	"demo": {
+		"title": "Übersetzungs-Demo",
+		"german": "Deutsch",
+		"english": "Englisch"
+	},
+	"DEFAULT": {
+		"name": "Name DEFAULT",
+		"mname": "Middle Name DEFAULT",
+		"lname": "Last Name DEFAULT"
+	},
+	"CLIENT1": {
+		"name": "Name CLIENT1",
+		"mname": "Middle Name CLIENT1",
+		"lname": "Last Name CLIENT1"
+	},
+	"CLIENT2": {
+		"name": "Name CLIENT2",
+		"mname": "Middle Name CLIENT2",
+		"lname": "Last Name CLIENT2"
+	}
+}

@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2 translate>demo.title</h2>
+  
+<p>{{ translatePrefix + '.name' | translate }}</p>
+<p>{{ translatePrefix + '.lname' | translate }}</p>
+<p>{{ translatePrefix + '.mname' | translate }}</p>
+
+  <button ion-button (click)="changeLanguage('de')">{{ 'demo.german' | translate }}</button>
+  <button ion-button (click)="changeLanguage('en')">{{ 'demo.english' | translate }}</button>
+</ion-content>
